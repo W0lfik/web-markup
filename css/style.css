@@ -1,29 +1,24 @@
-h1 {
-  font-size: 36px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-
-p {
-  font-size: 16px;
-}
-
 .logo {
-  font-weight: 900;
-  margin-left: 32px;
+  margin-left: 160x;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -2.4px;
+  color: #ffab2e;
+  font-size: 48px
 }
 .vegan {
-  margin: 0px 36px 0px 42px
+  margin: 0px 36px 0px 42px;
 }
-ul, li {
+ul,
+li {
   list-style-type: none;
   display: flex;
   padding: 16px;
   font-size: 24px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 nav {
   display: flex;
@@ -37,20 +32,38 @@ header {
 }
 .cta {
   text-align: center;
-  font-size: 32px;
+  font-size: 42px;
   margin-bottom: 70px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.block1, .block2{
+.block1,
+.block2 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.block1 {
+  margin-bottom: 64px;
 }
 article {
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 400px;
 }
 .articlePic {
-  width: 450px;
+  width: 500px;
   border-radius: 32px;
+}
+.articleHeadline {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.articleText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
