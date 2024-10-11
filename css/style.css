@@ -29,10 +29,13 @@ li {
 .veganLeaf {
   width: 30px;
 }
+.star.bottom{
+  width: 50px;
+}
 .starsBlock {
   display: flex;
 }
-.ButtonHeader {
+.Button.Header {
   margin: 0px;
   text-decoration: none;
   border: none;
@@ -43,7 +46,18 @@ li {
   font-style: normal;
   color: #252525;
 }
-.ButtonHeader:hover {
+.Button.Bottom {
+  margin: 0px;
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  font-size: 56px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #252525;
+}
+.Button.Header:hover, .Button.Bottom:hover {
   color: #7A7A7A;
 }
 nav {
@@ -100,6 +114,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .bannerFood {
   height: 370px;
@@ -116,7 +131,14 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-section {
+.BottomBanner {
   position: relative;
   text-align: center;
+}
+.bottomMenu{
+margin: 0px 20px 0px 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }
