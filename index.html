@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>easyRecipes</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <header>
-      <h1 class="logo">easyRecipes</h1>
+      <section class="logoFull">
+        <h1 class="logo">easyRecipes</h1>
+        <img src="/img/potLogo.png" class="pot" />
+      </section>
       <nav>
         <ul>
           <li>
@@ -72,7 +73,7 @@
       />
     </section>
 
-    <article class="menu">
+    <nav class="menu">
       <section class="BottomBanner">
         <img src="img/bannerFood.png" class="bannerFood" />
         <p class="bottomLeft">Choose your cooking level:</p>
@@ -97,10 +98,14 @@
               <img src="/img/star.svg" class="star bottom" />
             </span>
             <button class="Button Bottom">Advanced</button>
-          </li>          
+          </li> 
         </ul>
       </section>
-    </article>
+      <section class="veganRecipes">
+        <img src="/img/veganLeaf.svg" class="veganLeaf bottom" />
+        <button class="Button Bottom">Vegan</button>
+      </section>
+    </nav>
 
     <footer>
       <p>All rights reserved, 2024 ©</p>
