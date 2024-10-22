@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>easyRecipes</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="logoFull">
+        <h1 class="logo">easyRecipes</h1>
+        <img src="/img/potLogo.png" class="pot" />
+      </section>
+      <nav>
+        <ul>
+          <li>
+            <img src="/img/star.svg" class="star" />
+            <button class="Button Header">Beginner</button>
+          </li>
+          <li>
+            <span class="starsBlock">
+              <img src="/img/star.svg" class="star" />
+              <img src="/img/star.svg" class="star" />
+            </span>
+            <button class="Button Header">Intermediate</button>
+          </li>
+          <li>
+            <span class="starsBlock">
+              <img src="/img/star.svg" class="star" />
+              <img src="/img/star.svg" class="star" />
+              <img src="/img/star.svg" class="star" />
+            </span>
+            <button class="Button Header">Advanced</button>
+          </li>
+          <li class="vegan">
+            <img src="/img/veganLeaf.svg" class="veganLeaf" />
+            <button class="Button Header">Vegan</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="headlineContact">
+    <h1>Get in Touch with Us!</h1>
+    <p>Have questions, feedback, or recipe suggestions? We’d love to hear from you! Whether you need help with a recipe or just want to share your cooking experience, feel free to reach out.</p>
+    <p>Simply fill out the form below, and we’ll get back to you as soon as possible. Your input helps us make easyCooking even better for everyone.</p>
+</section>
+    <section class="form">
+        <p><span>* </span><strong>- mandatory fields</strong></p>
+      <form method="POST">
+        <section>
+          <p>Title<span>*</span></p>
+          <label for="title"> Mr.<input type="radio" name="title" /> </label>
+          <label for="title"> Mrs. <input type="radio" name="title" /> </label>
+        </section>
+
+        <label for="name"
+          ><p>Full name<span>*</span></p></label
+        >
+        <input
+          type="text"
+          id="name"
+          name="fullName"
+          placeholder="Enter your full name"
+          class="inputStyle"
+          required
+        />
+
+        <label for="email"
+          ><p>Email<span>*</span></p></label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@gmail.com"
+          class="inputStyle"
+          required
+        />
+
+        <label for="tel"><p>Phone number</p></label>
+        <input type="tel" id="tel" name="tel" placeholder="+380123456789" class="inputStyle" />
+
+        <label for="message"
+          ><p>Message<span>*</span></p></label
+        >
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="40"
+          placeholder="Enter your message"
+        ></textarea>
+        <p><input type="submit" value="submit" class="submit"></p>
+      </form>
+    </section>
+    <footer>
+      <img src="/img/potLogo.png" class="pot" />
+      <button>Contact!</button>
+      <p>All rights reserved, 2024 ©</p>
+    </footer>
+  </body>
+</html>
