@@ -24,15 +24,6 @@ a {
   color: #f19100;
   font-size: 58px;
 }
-.logo:hover {
-  margin-left: 5rem;
-  font-family: "Lilita One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: -4px;
-  color: #f19100;
-  font-size: 59px;
-}
 .logoFull {
   display: flex;
   align-items: center;
@@ -450,4 +441,92 @@ strong {
 .salutation {
   font-size: 16px;
   color: #573600;
+}
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 1rem;
+    font-size: 40px;
+  }
+
+  .recipeList {
+display: flex;
+flex-direction: column;
+gap: 150px;
+  }/* mobile recipe selector fix.!!!!!!!*/
+
+  nav ul,
+  nav li {
+    flex-direction: column;
+    padding: 8px;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .cta {
+    font-size: 32px;
+  }
+
+  .block1,
+  .block2 {
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .topArticle {
+    width: 95%;
+  }
+
+  .articlePic {
+    width: 90%;
+  }
+
+  .bannerFood {
+    width: 100%;
+    height: auto;
+  }
+
+  .recipeBlock {
+    flex-direction: column;
+    gap: 4vh;
+  }
+
+  .recipeBlock article {
+    width: 100%;
+  }
+
+  .recipeBlock button {
+    width: 100px;
+    height: 50px;
+  }
+
+  .banner.recipePage {
+    width: 100%;
+  }
+
+  .ingredientsContent {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .stepPic,
+  .img.recipePage {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottomLeft,
+  .articleHeadline {
+    font-size: 32px;
+  }
+
+  .recipeTitle h2 {
+    font-size: 28px;
+  }
+
+  footer {
+    gap: 20px;
+  }
 }
