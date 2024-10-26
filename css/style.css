@@ -24,7 +24,8 @@ a {
   color: #f19100;
   font-size: 58px;
 }
-.logoFull {
+
+.logoFull a {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -48,7 +49,7 @@ li {
 h1,
 h2 {
   color: #a86002;
-  font-family: Lilita One;
+  font-family: "Lilita One";
   font-weight: 400;
 }
 p,
@@ -245,13 +246,19 @@ footer button:hover {
   margin: 22px 0px 10px 0px;
 }
 /*recipe selector*/
-
+.recipeList {
+  display: flex;
+  flex-direction: column;
+  gap: 170px;
+}
+h1.cta {
+  margin: 80px 0px;
+}
 .recipeBlock {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 18vh;
-  height: 600px;
 }
 .recipeBlock article {
   width: 600px;
@@ -350,6 +357,10 @@ img.recipePage {
 .ingredients {
   margin: 100px 0px;
 }
+article.ingredients.left {
+  font-family: Roboto;
+  color:#573600
+}
 .stepPic {
   width: 25vw;
   height: 250px;
@@ -409,6 +420,15 @@ strong {
   justify-content: center;
   font-size: 1.3rem;
 }
+.headlineContact h1 {
+  font-size: 2.3rem;
+}
+.TopTextContact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
 .submit {
   width: 120px;
   height: 50px;
@@ -441,6 +461,7 @@ strong {
 .salutation {
   font-size: 16px;
   color: #573600;
+  font-family: Roboto;
 }
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
@@ -448,28 +469,30 @@ strong {
     margin-left: 1rem;
     font-size: 40px;
   }
-
   .recipeList {
-display: flex;
-flex-direction: column;
-gap: 150px;
-  }/* mobile recipe selector fix.!!!!!!!*/
-
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  } /* mobile recipe selector fix.!!!!!!!*/
+  p.recipeInfo {
+    font-size: 16px;
+  }
+  p.recipeInfo > span {
+    font-size: 12px;
+  }
   nav ul,
   nav li {
     flex-direction: column;
     padding: 8px;
   }
-
   header {
     flex-direction: column;
     gap: 16px;
   }
-
   .cta {
-    font-size: 32px;
+    font-size: 38px;
+    margin-bottom: 25px;
   }
-
   .block1,
   .block2 {
     flex-direction: column;
@@ -478,55 +501,94 @@ gap: 150px;
   .topArticle {
     width: 95%;
   }
-
   .articlePic {
     width: 90%;
   }
-
   .bannerFood {
-    width: 100%;
+    width: 95%;
     height: auto;
+    border-radius: 12px;
   }
-
   .recipeBlock {
     flex-direction: column;
     gap: 4vh;
+    padding: 16px;
   }
-
   .recipeBlock article {
     width: 100%;
   }
-
   .recipeBlock button {
     width: 100px;
     height: 50px;
+    border-radius: 10px;
+    font-size: 1.4rem;
   }
-
   .banner.recipePage {
     width: 100%;
   }
-
   .ingredientsContent {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .stepPic,
   .img.recipePage {
     width: 100%;
     height: auto;
   }
-
-  .bottomLeft,
   .articleHeadline {
     font-size: 32px;
   }
-
+  .bottomLeft {
+    font-size: 20px;
+    text-indent: 15px;
+    bottom: -12px;
+  }
   .recipeTitle h2 {
     font-size: 28px;
   }
-
+  .TopTextContact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
   footer {
     gap: 20px;
+  }
+  .ingredientsContent {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .step {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .stepPic {
+    width: 100%;
+  }
+  .bannerPic.recipePage {
+    height: auto;
+    margin: 24px auto;
+    width: 95%;
+  }
+  .banner.recipePage article.banner{
+    flex-direction: column;
+    padding: 8px;
+  }
+  .ingredients {
+    margin: 8px;
+  }
+  img.recipePage {
+    width: 90%;
+    height: auto;
+  }
+  .directions {
+    padding: 0px 8px;
+  }
+  .step {
+    margin: 35px;
+  }
+  .partnerLink {
+    padding: 8px;
   }
 }
