@@ -1,4 +1,108 @@
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lilitaone/v15/i7dPIFZ9Zz-WBtRtedDbUEY.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOiCnqEu92Fr1Mu51QrIzc.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TjARc9.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1Mu52xP.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51S7ABc9.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBhc9.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TLBBc9.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgWxP.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5vAw.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me5Q.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9vAw.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlvAw.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtvAw.ttf)
+    format("truetype");
+}
 body {
   color: #252525;
   background-color: #fffaf4;
@@ -24,7 +128,6 @@ a {
   color: #f19100;
   font-size: 58px;
 }
-
 .logoFull a {
   display: flex;
   align-items: center;
@@ -34,7 +137,7 @@ a {
   width: 60px;
 }
 .vegan {
-  margin: 0px 36px 0px 42px;
+  margin: 0 36px 0 42px;
 }
 nav ul,
 nav li {
@@ -78,7 +181,7 @@ h3 {
   display: flex;
 }
 .Button.Header {
-  margin: 0px;
+  margin: 0;
   text-decoration: none;
   border: none;
   background-color: #fffaf4;
@@ -89,7 +192,7 @@ h3 {
   color: #252525;
 }
 .Button.Bottom {
-  margin: 0px;
+  margin: 0;
   text-decoration: none;
   border: none;
   background-color: #fffaf4;
@@ -116,7 +219,7 @@ header {
 .cta {
   text-align: center;
   font-size: 48px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -190,7 +293,7 @@ aside {
   margin-bottom: 32px;
 }
 .bottomMenu {
-  margin: 0px 20px 0px 20px;
+  margin: 0 20px 0 20px;
   margin-bottom: 32px;
 }
 .veganRecipes {
@@ -207,10 +310,10 @@ footer {
 }
 footer button {
   font-size: 24px;
-  font-family: Lilita One;
+  font-family: "Lilita One";
   font-weight: 400;
   line-height: 24px;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   display: flex;
   width: 155px;
   height: 54px;
@@ -223,14 +326,14 @@ footer button {
   background: #f19100;
   border: none;
   color: white;
-  margin: 22px 0px 10px 0px;
+  margin: 22px 0 10px 0;
 }
 footer button:hover {
   font-size: 24px;
-  font-family: Lilita One;
+  font-family: "Lilita One";
   font-weight: 400;
   line-height: 24px;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   display: flex;
   width: 155px;
   height: 54px;
@@ -243,16 +346,15 @@ footer button:hover {
   background: #f19100;
   border: none;
   color: white;
-  margin: 22px 0px 10px 0px;
+  margin: 22px 0 10px 0;
 }
-/*recipe selector*/
 .recipeList {
   display: flex;
   flex-direction: column;
   gap: 170px;
 }
 h1.cta {
-  margin: 80px 0px;
+  margin: 80px 0;
 }
 .recipeBlock {
   display: flex;
@@ -263,7 +365,6 @@ h1.cta {
 .recipeBlock article {
   width: 600px;
 }
-
 .recipeBlock h2 {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
@@ -277,7 +378,6 @@ h1.cta {
 }
 .recipeInfo {
   font-size: 26px;
-  letter-spacing: -5%;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -298,14 +398,12 @@ h1.cta {
   background-color: #f19100;
   color: white;
   font-size: 36px;
-  font-family: Lilita One;
+  font-family: "Lilita One";
   font-weight: 400;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   text-decoration: none;
   border: none;
 }
-
-/*recipe page*/
 .banner.recipePage {
   display: block;
   margin-left: auto;
@@ -334,7 +432,7 @@ h1.cta {
 .directions h2,
 h2 {
   font-size: 40px;
-  margin: 0px;
+  margin: 0;
 }
 .banner.recipePage ul {
   font-size: 24px;
@@ -355,11 +453,11 @@ img.recipePage {
   flex-direction: column;
 }
 .ingredients {
-  margin: 100px 0px;
+  margin: 100px 0;
 }
 article.ingredients.left {
   font-family: Roboto;
-  color:#573600
+  color: #573600;
 }
 .stepPic {
   width: 25vw;
@@ -377,7 +475,7 @@ article.ingredients.left {
   font-size: 18px;
 }
 .step {
-  margin: 120px 0px;
+  margin: 120px 0;
 }
 .externalLink:visited {
   color: #a86002;
@@ -387,8 +485,6 @@ article.ingredients.left {
   font-family: Roboto;
   color: #573600;
 }
-
-/*contact form*/
 .form {
   display: flex;
   align-items: center;
@@ -402,7 +498,7 @@ legend {
   border-radius: 6px;
   height: 32px;
   width: 200px;
-  border: 1px solid #b2b2b2;
+  border: #b2b2b2 solid 1px;
 }
 textarea {
   border-radius: 6px;
@@ -437,7 +533,7 @@ strong {
   border-radius: 12px;
   background: #f19100;
   color: white;
-  font-family: Lilita One;
+  font-family: "Lilita One";
   text-decoration: none;
   border: 1px;
   border-color: #f19100;
@@ -453,7 +549,7 @@ strong {
   border-radius: 12px;
   background: #ffab2e;
   color: white;
-  font-family: Lilita One;
+  font-family: "Lilita One";
   text-decoration: none;
   border: none;
   font-size: 1.2rem;
@@ -463,7 +559,6 @@ strong {
   color: #573600;
   font-family: Roboto;
 }
-/* Responsive Styles for Mobile */
 @media (max-width: 768px) {
   .logo {
     margin-left: 1rem;
@@ -473,7 +568,7 @@ strong {
     display: flex;
     flex-direction: column;
     gap: 50px;
-  } /* mobile recipe selector fix.!!!!!!!*/
+  }
   p.recipeInfo {
     font-size: 16px;
   }
@@ -571,7 +666,7 @@ strong {
     margin: 24px auto;
     width: 95%;
   }
-  .banner.recipePage article.banner{
+  .banner.recipePage article.banner {
     flex-direction: column;
     padding: 8px;
   }
@@ -583,7 +678,7 @@ strong {
     height: auto;
   }
   .directions {
-    padding: 0px 8px;
+    padding: 0 8px;
   }
   .step {
     margin: 35px;
