@@ -314,9 +314,7 @@ footer a {
   font-weight: 400;
   line-height: 24px;
   overflow-wrap: break-word;
-  display: flex;
-  width: 155px;
-  height: 54px;
+  display: flex; 
   padding: 13px 18px;
   justify-content: center;
   align-items: center;
@@ -388,11 +386,10 @@ h1.cta {
 .recipeInfo span {
   font-size: 14px;
 }
-.recipeBlock button {
+.recipeBlock a {
   display: flex;
-  width: 150px;
-  height: 80px;
-  padding: 22px 36px;
+  width: 3vw;
+  padding: 16px 36px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -634,6 +631,24 @@ strong {
     height: 50px;
     border-radius: 10px;
     font-size: 1.4rem;
+  }
+  .recipeBlock a {
+    display: flex;
+    width: 10vw;
+    padding: 16px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-color: #f19100;
+    color: white;
+    font-size: 36px;
+    font-family: "Lilita One";
+    font-weight: 400;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    border: none;
   }
   .banner.recipePage {
     width: 100%;
