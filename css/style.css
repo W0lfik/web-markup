@@ -348,6 +348,9 @@ footer button:hover {
   color: white;
   margin: 22px 0 10px 0;
 }
+
+/* recipe selector *******************************************************************************/
+
 .recipeList {
   display: flex;
   flex-direction: column;
@@ -404,6 +407,8 @@ h1.cta {
   text-decoration: none;
   border: none;
 }
+
+/* recipe page *******************************************************************************/
 .banner.recipePage {
   display: block;
   margin-left: auto;
@@ -414,6 +419,7 @@ h1.cta {
 .step {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .bannerPic.recipePage {
   display: block;
@@ -453,7 +459,10 @@ img.recipePage {
   flex-direction: column;
 }
 .ingredients {
-  margin: 100px 0;
+  margin: 60px 0px;
+}
+.ingredients .left ul li {
+  padding: 8px 0px;
 }
 article.ingredients.left {
   font-family: Roboto;
@@ -466,14 +475,17 @@ article.ingredients.left {
   object-fit: cover;
 }
 .directions article {
-  width: 300px;
+  width: 25vw;
 }
 .directions article h3 {
   font-size: 28px;
+  margin: 0.5rem 0px;
+  font-weight: 600;
 }
 .directions article p {
   font-size: 18px;
 }
+
 .step {
   margin: 120px 0;
 }
@@ -484,6 +496,8 @@ article.ingredients.left {
   font-size: 1.3rem;
   font-family: Roboto;
   color: #573600;
+
+  /* contact form *******************************************************************************/
 }
 .form {
   display: flex;
@@ -559,6 +573,9 @@ strong {
   color: #573600;
   font-family: Roboto;
 }
+
+/* mobile version *****************************************************************************************/
+
 @media (max-width: 768px) {
   .logo {
     margin-left: 1rem;
@@ -647,16 +664,14 @@ strong {
     margin-right: auto;
     width: 80%;
   }
-  footer {
-    gap: 20px;
-  }
   .ingredientsContent {
     flex-direction: column;
     align-items: flex-start;
   }
   .step {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    margin: 35px;
   }
   .stepPic {
     width: 100%;
@@ -680,8 +695,8 @@ strong {
   .directions {
     padding: 0 8px;
   }
-  .step {
-    margin: 35px;
+  .directions article {
+    width: 100%;
   }
   .partnerLink {
     padding: 8px;
