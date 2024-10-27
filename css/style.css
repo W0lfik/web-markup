@@ -116,6 +116,34 @@ html {
   display: block;
   width: 100%;
 }
+.cookieMessage h3 {
+  color: #a86002;
+  font-family: "Lilita One";
+  font-weight: 400;
+}
+.cookieMessage h3::first-letter {
+  font-size: 1.2em;
+}
+.cookieMessage button {
+  border: 0;
+  background-color: #f19100;
+  border-radius: 3px;
+  padding: 8px 16px;
+  color: white;
+  font-family: "Lilita One";
+  
+}
+.cookieMessage {
+  position: fixed;
+  bottom: 0;
+  width: 250px;
+  padding: 16px;
+  text-align: center;
+  z-index: 9999;
+  background-color: #fffaf4;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+  float: left; 
+}
 a {
   text-decoration: none;
 }
@@ -314,7 +342,7 @@ footer a {
   font-weight: 400;
   line-height: 24px;
   overflow-wrap: break-word;
-  display: flex; 
+  display: flex;
   padding: 13px 18px;
   justify-content: center;
   align-items: center;
@@ -464,6 +492,7 @@ img.recipePage {
 article.ingredients.left {
   font-family: Roboto;
   color: #573600;
+  width: 400px;
 }
 .stepPic {
   width: 25vw;
@@ -715,5 +744,8 @@ strong {
   }
   .partnerLink {
     padding: 8px;
+  }
+  article.ingredients.left {
+    width: 100%;
   }
 }
